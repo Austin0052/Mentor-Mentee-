@@ -4,6 +4,8 @@ import KYC from './Components/KYC';
 import UserProfile from './Components/UserProfile';
 import Layout from './Components/shared/Layout';
 import Booking from './Components/Booking';
+import LoginSignup from './Components/LoginForm';
+import SignUpForm from './Components/SignUpForm';
 
 const App = () => {
  
@@ -18,6 +20,9 @@ const App = () => {
           <Route path="/booking" element={<Booking/>} />
         </Route>
         <Route path="/UserProfile" element={<UserProfile/>} />
+        <Route path="/Loginform" element={<LoginSignup/>} />
+        <Route path="/SignUpform" element={<SignUpForm/>} />
+
         </Routes>
 
     </Router>
