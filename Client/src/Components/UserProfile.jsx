@@ -186,6 +186,7 @@ const UserProfile = ({ userId }) => {
         </div>
         
       </div>
+      
     </div>
   );
 };

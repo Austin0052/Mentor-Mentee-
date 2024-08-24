@@ -6,6 +6,7 @@ import Layout from './Components/shared/Layout';
 import Booking from './Components/Booking';
 import LoginSignup from './Components/LoginForm';
 import SignUpForm from './Components/SignUpForm';
+import MenteeProfile from './Components/MenteeProfile';
 
 const App = () => {
  
@@ -22,6 +23,8 @@ const App = () => {
         <Route path="/UserProfile" element={<UserProfile/>} />
         <Route path="/Loginform" element={<LoginSignup/>} />
         <Route path="/SignUpform" element={<SignUpForm/>} />
+        <Route path="/mentee" element={<MenteeProfile/>} />
+
 
         </Routes>
 
