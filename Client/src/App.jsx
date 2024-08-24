@@ -6,6 +6,10 @@ import Layout from './Components/shared/Layout';
 import Booking from './Components/Booking';
 import LoginSignup from './Components/LoginForm';
 import SignUpForm from './Components/SignUpForm';
+====== mentor
+=======
+import MenteeProfile from './Components/MenteeProfile';
+====== main
 
 const App = () => {
  
@@ -22,6 +26,11 @@ const App = () => {
         <Route path="/UserProfile" element={<UserProfile/>} />
         <Route path="/Loginform" element={<LoginSignup/>} />
         <Route path="/SignUpform" element={<SignUpForm/>} />
+====== mentor
+=======
+        <Route path="/mentee" element={<MenteeProfile/>} />
+
+====== main
 
         </Routes>
 
