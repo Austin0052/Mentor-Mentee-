@@ -8,6 +8,7 @@ import { SiGooglemeet } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillMediumCircle } from "react-icons/ai";
+import Header from './Header';
 
 
 
@@ -76,7 +77,8 @@ const UserProfile = ({ userId }) => {
   };
 
   return (
-    <div className="container mx-auto bg-slate-100">
+    <div className=" bg-slate-100">
+      <Header/>
         {/* Cover Photo */}
       <div className="bg-gray-200 rounded-lg p-4">
         <div className="relative">

@@ -7,6 +7,7 @@ import Booking from './Components/Booking';
 import LoginSignup from './Components/LoginForm';
 import SignUpForm from './Components/SignUpForm';
 import MenteeProfile from './Components/MenteeProfile';
+import Dashboard from './Components/Dashboard';
 
 const App = () => {
  
@@ -15,7 +16,7 @@ const App = () => {
     <Router>
         <Routes>
         <Route path="/" element={<Layout/>}>
-          {/* <Route index element={<Dashboard/>} /> */}
+          <Route path='/' element={<Dashboard/>} />
           <Route path="/KYC" element={<KYC/>} />
           
           <Route path="/booking" element={<Booking/>} />
