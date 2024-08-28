@@ -70,9 +70,9 @@ const Dashboard = () => {
                             <th className="p-2">Date</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody >
                         {bookings.map((booking, index) => (
-                            <tr key={index} className="text-gray-700">
+                            <tr key={index} className="text-gray-700 hover:bg-gray-200">
                                 <td className="p-2 flex items-center">
                                     <img
                                         src={booking.mentor.avatar}
