@@ -1,4 +1,5 @@
 import React from 'react'
+======= mentee
 import { FaRegCalendarCheck } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
 import { FaClock } from "react-icons/fa";
@@ -135,6 +136,16 @@ const Booking = () => {
                 </table>
                 
             </div>
+=======
+import AppointmentBooking from './AppointmentBooking'
+
+  
+
+const Booking = () => {
+  return (
+    <div>
+        
+======= main
 
     </div>
   )
