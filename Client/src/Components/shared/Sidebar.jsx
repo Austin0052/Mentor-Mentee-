@@ -26,17 +26,29 @@ function SideBottom({item}){
 }
 const Sidebar = () => {
   return (
+======= mentee
+    <div className='flex flex-col bg-white min-w-64 min-h-screen text-black'>
+      <div className='flex flex-row mt-1 mb-[4px] ml-3'>
+            <img src={logo} alt="MentorShip" />
+        </div>
+        <div className='border-b border-slate-200 w-64 mt-[6px]'></div>
+=======
     <div className='flex flex-col bg-white min-w-64 text-black'>
       <div className='flex flex-row mt-1 mb-[4px] ml-3'>
             <img src={logo} alt="MentorShip" />
         </div>
         <div className='border-b border-slate-300 w-64 mt-[6px]'></div>
+======= main
       <div className='flex-1 flex flex-col py-5 gap-0.5 mx-3'>
         {Sidebar_Links.map((item)=>(
           <SideLink key={item.key} item={item}/>
         ))}
       </div>
+======= mentee
+      <div className='flex flex-col py-3 pt-2 border-t mx-3 border-gray-300 '>
+=======
       <div className='flex flex-col py-3 pt-2 border-t border-gray-500 '>
+======= main
         {Sidebar_Logout.map((item)=>(
           <SideBottom key={item.key} item={item}/>
         ))}

@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+======= mentee
+    "start": "nodemon socketServer.js"
+=======
     "test": "echo \"Error: no test specified\" && exit 1"
+======= main
   },
   "keywords": [],
   "author": "",
@@ -17,6 +21,11 @@
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.2",
     "mysql2": "^3.11.0",
+======= mentee
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+=======
     "nodemon": "^3.1.4"
+======= main
   }
 }

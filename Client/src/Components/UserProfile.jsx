@@ -8,6 +8,10 @@ import { SiGooglemeet } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillMediumCircle } from "react-icons/ai";
+======= mentee
+import Header from './Header';
+=======
+======= main
 
 
 
@@ -76,7 +80,12 @@ const UserProfile = ({ userId }) => {
   };
 
   return (
+======= mentee
+    <div className=" bg-slate-100">
+      <Header/>
+=======
     <div className="container mx-auto bg-slate-100">
+======= main
         {/* Cover Photo */}
       <div className="bg-gray-200 rounded-lg p-4">
         <div className="relative">
@@ -186,10 +195,14 @@ const UserProfile = ({ userId }) => {
         </div>
         
       </div>
+======= mentee
+      
+=======
 ====== mentor
 =======
       
 ====== main
+======= main
     </div>
   );
 };
