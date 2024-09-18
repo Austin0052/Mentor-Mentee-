@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import KYC from './Components/KYC';
-import UserProfile from './Components/UserProfile';
+import UserP from './Components/UserProfile';
 import Layout from './Components/shared/Layout';
 import Booking from './Components/Booking';
-import LoginSignup from './Components/LoginForm';
+import LoginForm from './Components/LoginForm';
 import SignUpForm from './Components/SignUpForm';
 import MenteeProfile from './Components/MenteeProfile';
 import Dashboard from './Components/Dashboard';
@@ -20,8 +20,8 @@ const App = () => {
           <Route path="/KYC" element={<KYC />} />
           <Route path="/booking" element={<Booking />} />
         </Route>
-        <Route path="/UserProfile" element={<UserProfile />} />
-        <Route path="/Loginform" element={<LoginSignup />} />
+        <Route path="/UserProfile" element={<UserP />} />
+        <Route path="/Login" element={<LoginForm />} />
         <Route path="/SignUpform" element={<SignUpForm />} />
         <Route path="/mentee" element={<MenteeProfile />} />
         <Route path="/lobby" element={<LobbyScreen />} />
